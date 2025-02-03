@@ -4,4 +4,18 @@ Inspired by the [Everforest](https://github.com/sainnhe/everforest) theme. I wan
 
 Thanks to the [Catppuccin Theme for Homer](https://github.com/mrpbennett/catppuccin-homer) which helped a lot to understand how themes for Homer work.
 
+![Everforest](./example/preview.png)
 
+## Installation
+
+- Copy the files from [`theme`](./theme) over to
+  `www/assets/...`
+- Put these lines into `www/assets/config.yml` and save the file:
+
+```yaml
+stylesheet:
+  - 'assets/stylesheet.css'
+```
+
+
+<p align="center"><a href="https://github.com/thorstenstoehr/everforest-homer/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=302d41&colorB=b7bdf8"/></a></p>
