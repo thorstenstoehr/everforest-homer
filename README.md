@@ -1,6 +1,5 @@
-# everforest-homer
-Inspired by the [Everforest](https://github.com/sainnhe/everforest) theme. I wanted to bring Everforest to the
-[homer dashboard](https://github.com/bastienwirtz/homer).
+# Everforest-Homer
+Inspired by the [Everforest](https://github.com/sainnhe/everforest) theme. This is my take on bringing Everforest to the [Homer Dashboard](https://github.com/bastienwirtz/homer).
 
 Thanks to the [Catppuccin Theme for Homer](https://github.com/mrpbennett/catppuccin-homer) which helped a lot to understand how themes for Homer work.
 
@@ -17,5 +16,6 @@ stylesheet:
   - 'assets/stylesheet.css'
 ```
 
+## License
 
 <p align="center"><a href="https://github.com/thorstenstoehr/everforest-homer/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=302d41&colorB=b7bdf8"/></a></p>
