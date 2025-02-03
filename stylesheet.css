@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+/* Everforest theme for Homer */
+
+#app.theme-default.dark {
+  --everforest-base: #232A2E;
+  --everforest-surface0: #2D353B;
+  --everforest-surface1: #343F44;
+  --everforest-surface2: #3D484D;
+  --everforest-text: #D3C6AA;
+  --everforest-blue: #7FBBB3;
+  --everforest-green: #A7C080;
+  --everforest-orange: #E69875;
+  --everforest-aqua: #83C092;
+  --everforest-purple: #D699B6;
+  --everforest-red: #E67E80;
+  --everforest-yellow: #DBBC7F;
+  --everforest-text-dark: var(--everforest-surface2);
+
+  --highlight-primary: transparent;
+  --highlight-secondary: var(--everforest-surface0);
+  --highlight-inverted: var(--everforest-aqua);
+  --highlight-hover: var(--everforest-surface1);
+  --background: var(--everforest-base);
+  --highlight-hover: var(--everforest-surface2);
+  --card-background: var(--everforest-surface0);
+  --text: var(--everforest-text);
+  --text-header: var(--everforest-text);
+  --text-title: var(--everforest-text);
+  --text-subtitle: var(--everforest-orange);
+  --link: var(--everforest-green);
+  --link-hover: var(--everforest-green);
+  --highlight-variant-inverted: var(--everforest-red);
+}
+
+/* Header */
+
+/* Comment the following section out if you want no header image. Also, set --highlight-primary to var(--everforest-surface0). */
+
+#app.theme-default.dark #bighead {
+  background-image: url('/assets/forest.png');
+  background-size: cover;
+  background-position: center;
+} 
+
+#app.theme-default.dark .logo {
+  color: var(--everforest-aqua);
+}
+
+#app.theme-default.dark .first-line .headline {
+  color: var(--everforest-yellow);
+}
+
+#app.theme-default.dark .navbar-start i {
+  color: var(--everforest-blue);
+}
+
+#app.theme-default.dark [title='Auto-switch'] {
+  color: var(--everforest-purple);
+}
+
+#app.theme-default.dark [title='Dark theme'] {
+  color: var(--everforest-surface0);
+}
+
+#app.theme-default.dark .navbar-item .fa-columns {
+  color: var(--everforest-green);
+}
+
+#app.theme-default.dark .navbar-item .fa-list {
+  color: var(--everforest-blue);
+}
+
+#app.theme-default.dark .search-bar .search-label:before {
+  color: var(--everforest-yellow);
+}
+
+#app.theme-default.dark .search-bar input {
+  background-color: var(--everforest-base);
+}
+
+#app.theme-default.dark .search-bar > input:nth-child(2) {
+  color: var(--everforest-text);
+}
+
+#app.theme-default.dark .search-bar input:focus-visible {
+  outline: none;
+}
+
+/* Message */
+
+#app.theme-default.dark .message-header {
+  color: var(--everforest-green);
+  background-color: var(--everforest-surface0);
+  border-style: none none solid none;
+  border-width: thin;
+}
+
+#app.theme-default.dark .is-info .message-header {
+  border-color: var(--everforest-blue);
+}
+
+#app.theme-default.dark .is-info .message-header i {
+  color: var(--everforest-blue);
+}
+
+#app.theme-default.dark .is-success .message-header {
+  border-color: var(--everforest-green);
+}
+
+#app.theme-default.dark .is-success .message-header i {
+  color: var(--everforest-green);
+}
+
+#app.theme-default.dark .is-warning .message-header {
+  border-color: var(--everforest-orange);
+}
+
+#app.theme-default.dark .is-warning .message-header i {
+  color: var(--everforest-orange);
+}
+
+#app.theme-default.dark .is-danger .message-header {
+  border-color: var(--everforest-red);
+}
+
+#app.theme-default.dark .is-danger .message-header i {
+  color: var(--everforest-red);
+}
+
+
+/* Cards */
+
+#app.theme-default.dark .tag {
+  background-color: var(--everforest-green);
+  color: var(--everforest-text-dark);
+}
+
+#app.theme-default.dark .status.unknown::before {
+  background-color: var(--everforest-yellow);
+  border-color: var(--everforest-yellow);
+  box-shadow: 0 0 5px 1px var(--everforest-yellow);
+}
+
+#app.theme-default.dark .status.bad::before {
+  background-color: var(--everforest-red);
+  border-color: var(--everforest-red);
+  box-shadow: 0 0 5px 1px var(--everforest-red);
+}
+
+#app.theme-default.dark .status.running::before {
+  background-color: var(--everforest-green);
+  border-color: var(--everforest-green);
+  box-shadow: 0 0 5px 1px var(--everforest-green);
+}
+
+#app.theme-default.dark .card:hover {
+  background-color: var(--everforest-surface1);
+}
+
+/* Footer */
+#app.theme-default.dark .footer {
+  color: var(--everforest-text);
+}
+
+/* Adds spacing to the bottom of cards */
+body #app .card-content {
+  margin-bottom: 0.55rem;
+}
+
+/* Custom font using JetBrains Mono */
+
+body  {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+/* Change color for headline icons */
+
+body #main-section h2 i  {
+    color: var(--everforest-orange);}
