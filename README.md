@@ -18,4 +18,4 @@ stylesheet:
 
 ## License
 
-<p align="center"><a href="https://github.com/thorstenstoehr/everforest-homer/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=302d41&colorB=b7bdf8"/></a></p>
+<p align="center"><a href="https://github.com/thorstenstoehr/everforest-homer/blob/main/LICENSE"><img src="(https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=232A2E&colorA=3D484D&colorB=83C092)"/></a></p>
